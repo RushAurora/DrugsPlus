@@ -31,6 +31,24 @@ import cn.nukkit.event.player.PlayerInteractEvent;
     case 296:
      player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.GREEN + "Weed");
     break;
+    case 353:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.WHITE + "Cocaine");
+    break;
+    case 331:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.RED + "Herion");
+    break;
+    case 475:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.YELLOW + "Spice");
+    break;
+    case 295:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.DARK_GREEN + "Weed Seeds");
+    break;
+    case 338:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.GRAY + "Cocaine Plant");
+    break;
+    case 414:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.WHITE + "Steroids");
+    break;
    }
   }
  }
