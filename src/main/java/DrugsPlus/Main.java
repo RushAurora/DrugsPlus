@@ -1,6 +1,7 @@
 package Drugs;
 
 import cn.nukkit.Player;
+import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerItemHeldEvent;
 import cn.nukkit.item.Item;
 import cn.nukkit.level.particle.SmokeParticle;
@@ -13,7 +14,7 @@ import cn.nukkit.utils.TextFormat;
 /**
  * Created by FuryTacticz & iMagicalGamer on 08.07.2016.
  */
-public class Drugs extends PluginBase {
+public class Drugs extends PluginBase implements Listener{
 	@Override 
 	  public void onEnable() { 
 	  this.getLogger().info(TextFormat.GREEN  + "Nicks by FuryTacticz & iMagicalGamer Enabled!"); 
