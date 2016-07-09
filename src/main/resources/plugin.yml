@@ -1,0 +1,7 @@
+name: DrugsPlus
+main: DrugsPlus.Main
+version: "0.0.2"
+api: ["1.0.0", "2.0.0","3.0.0"]
+load: POSTWORLD
+author: ImagicalGamer & FuryTacticz
+description: ImagicalGamer's DrugsPlus for PocketMine ported to Nukkit!
