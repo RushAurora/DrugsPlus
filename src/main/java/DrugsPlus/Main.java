@@ -18,4 +18,20 @@ import cn.nukkit.event.player.PlayerInteractEvent;
  */
  
  public class Main extends PluginBase implements Listener{
-}
+  
+  @Override 
+  public void onEnable(){
+   this.getLogger().info(TextFormat.GREEN + "Enabled!");
+  }
+  
+  @Override
+  public boolean onHeld(PlayerItemHeldEvent event){
+   player = event.getPlayer();
+   item = player.getInventory().getItemInHand();
+   switch(item.getId()){
+    case 296:
+     player.getInventory.setItemInHand(item.setCustomName(TextFormat.RESET  + TextFormat.GREEN + "Weed");
+    break;
+   }
+  }
+ }
